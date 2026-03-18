@@ -12,6 +12,10 @@
 - posts Slack notifications
 - can close Jira tickets from a Slack `Mark Complete` button
 
+## Architecture
+
+![Logo](./arch-diagram.png)
+
 ## Quick setup
 
 ### 1. Install dependencies
