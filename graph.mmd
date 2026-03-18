@@ -1,0 +1,27 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	extract_action_items(extract_action_items)
+	resolve_assignees(resolve_assignees)
+	human_review(human_review<hr/><small><em>__interrupt = before</em></small>)
+	route_action_items(route_action_items)
+	create_jira_tickets(create_jira_tickets)
+	send_slack_notifications(send_slack_notifications)
+	create_github_branches(create_github_branches)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> extract_action_items;
+	create_jira_tickets --> create_github_branches;
+	create_jira_tickets --> send_slack_notifications;
+	extract_action_items --> resolve_assignees;
+	human_review --> route_action_items;
+	resolve_assignees --> human_review;
+	route_action_items --> create_jira_tickets;
+	create_github_branches --> __end__;
+	send_slack_notifications --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

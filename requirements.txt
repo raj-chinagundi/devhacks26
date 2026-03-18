@@ -1,0 +1,11 @@
+langgraph
+langchain-core
+langchain-openai
+fastapi
+python-multipart
+uvicorn
+requests
+pydantic
+python-dotenv
+pyyaml
+pytest

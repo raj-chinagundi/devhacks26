@@ -1,0 +1,2 @@
+claude --resume 664a8b81-1f93-4e67-a6ff-4c732e2678f5
+cd ~/Desktop/devhack26 && python3 -m uvicorn server:app --port 8000

@@ -1,0 +1,11 @@
+Meeting: Weekly Standup
+Date: 2026-03-18
+Participants: Tyler Brent
+
+Tyler: Alright, quick update on where things stand. So the login page has been getting complaints — the password reset link is completely broken. Users click it and nothing happens. I'll dig into the code, find the bug, and push a fix to the repo today. Shouldn't take more than a couple hours.
+
+Tyler: Other thing — we promised stakeholders we'd have the Q1 progress report out by Friday. I need to pull together the numbers from the last three months and draft a summary email. Nothing too fancy, just the key metrics and highlights. I'll get that sent out by end of week.
+
+Tyler: Oh and one more thing — the onboarding docs are outdated. New hires have been confused by the setup steps. I'll update the internal wiki with the correct instructions. Should be straightforward.
+
+Tyler: That's it for now. Let's sync again Thursday.
