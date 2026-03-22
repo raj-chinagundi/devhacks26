@@ -2,6 +2,9 @@
 
 `auto-meet` turns a meeting transcript into reviewed action items, Jira tickets, GitHub branches for engineering work, and Slack updates.
 
+## DEMO VIDEO
+[![Demo Video](https://img.youtube.com/vi/aivZKKz0PJ4/0.jpg)](https://www.youtube.com/watch?v=aivZKKz0PJ4)
+
 ## What it does
 
 - reads a meeting transcript
